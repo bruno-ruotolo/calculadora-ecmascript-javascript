@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>CALCULADORA ONLINE</h1>
+        <div>
+            <p>+ => Adição</p>
+            <p>- => Subtração</p>
+            <p>* => Multiplicação</p>
+            <p>/ => Divisão</p>
+        </div>
+    </header>
+
+    <main>
+
+        <article>
+            <div class="primeiro-valor">
+                <p>Insira o primeiro valor</p>
+                <input type="text" placeholder="Primeiro Valor"></input>
+            </div>
+
+            <div class="operacao">
+                <p>Insira a operação</p>
+                <input type="text" placeholder="Operação"></input>
+            </div>
+
+            <div class="segundo-valor">
+                <p>Insira o segundo valor</p>
+                <input type="text" placeholder="Segundo Valor"></input>
+            </div>
+
+            <button onclick="obtendoValoresInput()">Calcular</button>
+            <div class="valor-calculado">
+
+            </div>
+        </article>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
